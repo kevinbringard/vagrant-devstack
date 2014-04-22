@@ -5,7 +5,7 @@ map = {
   'fedora' => 'todo', # Fedora 20
   'rhel' => 'todo', # CentOS/RHEL 6.5
   'centos' => 'todo',
-  'ubuntu' => 'hashicorp/precise64'
+  'ubuntu' => 'ubuntu/trusty64'
 }
 
 box = map[(ENV['DISTRO'] || 'ubuntu').downcase]
